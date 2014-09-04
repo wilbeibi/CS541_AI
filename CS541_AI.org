@@ -1,0 +1,43 @@
+
+#+TITLE: CS541 Artificial Intelligence
+#+AUTHOR: Wilbeibi
+#+EMAIL: wilbeibi AT gmail DOT com
+#+LANGUAGE: en
+#+OPTIONS: H:2 num:nil toc:t \n:nil @:t ::t |:t ^:nil f:t *:t TeX:t LaTeX:t skip:nil p:nil
+
+* Intro
+  - youtube : AI, reflex agent vs rational agent
+** Brief 
+*** Environments  
+	- observable
+	  - fully or partial
+	- deterministic or stochastic
+	- episodic or sequential
+	- discrete or continuous
+*** Agent Structures
+	- simple reflex
+	- model reflex
+	- goal based (Problem solving agent)
+	- utility based
+	- learning based
+* Search
+** Stat
+   problem --> [search] --> solution
+   └─ initial state
+   └─ possible action for each state
+   └─ transition model
+   └─ path costs
+   └─ goal
+   
+
+
+
+
+
+
+
+
+
+
+** Uninformed Search
+** Informed Search
