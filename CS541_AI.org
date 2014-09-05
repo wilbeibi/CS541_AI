@@ -20,24 +20,53 @@
 	- goal based (Problem solving agent)
 	- utility based
 	- learning based
-* Search
-** Stat
+* Search (Goal based)
+** Uninformed Search  
+*** General process
    problem --> [search] --> solution
    └─ initial state
    └─ possible action for each state
    └─ transition model
    └─ path costs
    └─ goal
-   
+  
+*** BFS
+    - frontier: FIFO
+    - O(b^d)
 
+*** Uniform Cost Search
+    - frontier: Heap, Priority queue
 
+*** DFS
+    - frontier: LIFO
+    - O(b^d)  space O(bd)
 
-
-
-
-
-
-
-
-** Uninformed Search
+*** Depth LIMITED Search
+*** Interative Deepening DFS
+*** Bidirectional Search
+    - b^(d/2) + b^(d/2) << b^d 
 ** Informed Search
+   - not that blindly search
+   - P(n) = g(n) + h(n)  // heuristic
+   - A* algorithm
+   - *Complete optimal* Heuristic: "Admissible" if it NEVER OVERESTIMATES the cost to the goal
+   - Heuristic: "consistant" or "monotheistic"
+	 h(n) <= c(n, a, n') + h(n')
+*** local search & optimization
+	- Hill Climbing (local maximum)
+	  - take best move
+    - Stochacstic Hill Climbing
+	  N "good" moves
+	- Random Restart Hill Climbing
+	- Simulated annealing
+	- Random Beam Search
+	- AND/OR Search Tree http://netclass.csu.edu.cn/jpkc2003/rengongzhineng/rengongzhineng/kejian/AI/Ai/chapter2/222.htm
+
+	 
+* Miscellaneous
+  - MIT AI undergraduate
+    http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/readings/
+  - MIT AI technology
+	http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-825-techniques-in-artificial-intelligence-sma-5504-fall-2002/lecture-notes/
+
+
