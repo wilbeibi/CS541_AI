@@ -68,5 +68,7 @@
     http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/readings/
   - MIT AI technology
 	http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-825-techniques-in-artificial-intelligence-sma-5504-fall-2002/lecture-notes/
+  - Standford Ai
+	http://web.stanford.edu/class/cs221/
 
 
